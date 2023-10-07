@@ -6,5 +6,12 @@
       "name":"alex",
       "pasword": 12
     }
+  ],
+  "sneakers": [
+    {
+      "id": 1,
+      "name": "yeezy 500",
+      "img": ""
+    }
   ]
 }
