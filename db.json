@@ -2,8 +2,9 @@
   "accounts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "email":"alihan@gmail.com",
+      "name":"alex",
+      "pasword": 12
     }
   ]
 }
