@@ -36,7 +36,6 @@
 }
 .sneaker {
   width: 45%;
-  /*z-index: 0  ;*/
   height: 100%;
 }
 .sneaker__img_wrapper {
@@ -45,6 +44,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.ellipse {
+  position: absolute;
+  left: 22%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 300px 300px rgba(9, 150, 150, 0.5);
+  z-index: 0;
 }
 .sneaker__img {
   width: 80%;

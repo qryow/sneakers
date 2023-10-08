@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './styles/NavbarStyles.module.css'
 
-import logo from '../../img/logo.svg'
+import logo from '../../img/logo.png'
 import account from '../../img/Account.svg'
 import cart from '../../img/Cart.svg'
 

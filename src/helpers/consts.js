@@ -1,0 +1,1 @@
+export const SNEAKERS_API = 'http://localhost:8000/sneakers'
