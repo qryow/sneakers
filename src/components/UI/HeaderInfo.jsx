@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import style from './styles/HeaderStyles.module.css'
+import { useSelector, useDispatch } from 'react-redux'
+import { GetSneakers } from '../../store/Sneakers/sneakersActions'
 
 import sneaker from '../../img/yeezy/green.png'
 import arrow from '../../img/Arrow.svg'
@@ -8,11 +10,22 @@ import strelka from '../../img/strelka.svg'
 import cart from '../../img/Cart.svg'
 
 const HeaderInfo = () => {
+  const sneakers = useSelector(state => state.sneakers.sneakers)
+  console.log(sneakers);
+
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(GetSneakers())
+  }, [])
+
+
   return (
     <header className={style.header__info}>
       <div className={style.sneaker__block}>
         <div className={style.sneaker}>
           <div className={style.sneaker__img_wrapper}>
+            <div className={style.ellipse}></div>
             <img className={style.sneaker__img} src={sneaker} alt="yeezy" />
           </div>
 

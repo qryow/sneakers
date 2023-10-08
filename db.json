@@ -10,8 +10,28 @@
   "sneakers": [
     {
       "id": 1,
-      "name": "yeezy 500",
-      "img": ""
+      "name": "yeezy 500 blue",
+      "img": "https://github.com/qryow/sneakers/blob/testbranch/src/img/yeezy/blue.png?raw=true"
+    },
+    {
+      "id": 2,
+      "name": "yeezy 500 gray",
+      "img": "https://github.com/qryow/sneakers/blob/testbranch/src/img/yeezy/gray.png?raw=true"
+    },
+    {
+      "id": 3,
+      "name": "yeezy 500 green",
+      "img": "https://github.com/qryow/sneakers/blob/testbranch/src/img/yeezy/green.png?raw=true"
+    },
+    {
+      "id": 4,
+      "name": "yeezy 500 green",
+      "img": "https://github.com/qryow/sneakers/blob/testbranch/src/img/yeezy/green.png?raw=true"
+    },
+    {
+      "id": 5,
+      "name": "yeezy 500 green",
+      "img": "https://github.com/qryow/sneakers/blob/testbranch/src/img/yeezy/green.png?raw=true"
     }
   ]
 }

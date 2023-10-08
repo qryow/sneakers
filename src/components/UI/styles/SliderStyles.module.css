@@ -1,9 +1,9 @@
 .slider {
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   background-color: #114443;
-  position: relative;
   z-index: 1;
+  position: relative;
 }
 .container {
   width: 95%;
@@ -15,62 +15,34 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-
-.block__arrow {
-  width: 7%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.arrow__img {
-  width: 20px;
-}
-.arrow__text {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: #fff;
-}
-
 .sneakers {
-  width: 80%;
-  height: 100%;
-  background-color: #114443;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 90%;
+  height: 80%;
 }
 .sneaker__block {
-  width: 28%;
-  height: 65%;
+  position: relative;
+  width: 40% !important;
+  margin: 0 80px;
+  height: 90%;
+  background-color: transparent !important;
   border: 2px solid #fff;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
 }
-.active {
-  width: 32%;
-  height: 80%;
-}
 .sneaker__img {
   position: relative;
-  width: 75%; 
-}
-.active__img {
-  width: 85%;
+  width: 65%; 
+  z-index: 1;
 }
 .sneaker__title {
   position: relative;
-  top: -17%;
+  top: -14%;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 600;
   color: #fff;
-  font-size: 25px;
-}
-.active__title {
-  font-size: 28px;
+  font-size: 30px;
 }
