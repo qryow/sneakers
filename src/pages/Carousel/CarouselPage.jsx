@@ -57,6 +57,12 @@ const CarouselPage = () => {
                     <SwiperSlide className={style.gallery_cell}>
                       <img className={style.sneaker__img} src={shoose3} alt="slide_image" />
                     </SwiperSlide>
+                    <SwiperSlide className={style.gallery_cell}>
+                      <img className={style.sneaker__img} src={shoose2} alt="slide_image" />
+                    </SwiperSlide>
+                    <SwiperSlide className={style.gallery_cell}>
+                      <img className={style.sneaker__img} src={shoose2} alt="slide_image" />
+                    </SwiperSlide>
                 <div className='slider-controler'>
                 <div className='swiper-button-prev slider-arrow'>
                   <ion-icon name="arrow-back-outline" />
