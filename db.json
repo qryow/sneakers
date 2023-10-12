@@ -1,10 +1,20 @@
 {
   "accounts": [
     {
-      "id": 1,
-      "email":"alihan@gmail.com",
-      "name":"alex",
-      "pasword": 12
+      "email": "ali@gmail.com",
+      "username": "ali",
+      "password": "12",
+      "confirmPassword": "12",
+      "active": false,
+      "id": 2
+    },
+    {
+      "email": "azamat@gmail.com",
+      "username": "azamat",
+      "password": "123",
+      "confirmPassword": "123",
+      "active": false,
+      "id": 3
     }
   ]
 }
