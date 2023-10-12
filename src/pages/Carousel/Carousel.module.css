@@ -7,11 +7,11 @@
     background: none;
     width: 100%;
     height: 800px;
-    margin-top: 300px;
+    margin-top: 400px;
   }
   
   .gallery_cell {
-    width: 45%;
+    width: 65%;
     height: 100%;
     counter-increment: gallery-cell;
     display: flex;

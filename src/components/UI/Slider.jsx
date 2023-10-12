@@ -118,6 +118,7 @@ const Slider = () => {
                 }}
                 modules={[EffectCoverflow, Pagination, Navigation]}
 
+                
                 className={`${style.sneakers}`}
               >
                 {sneakers.map(sneaker => (
